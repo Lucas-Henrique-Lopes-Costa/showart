@@ -1,0 +1,71 @@
+
+:root {
+    --background-color: #ffffff;
+    --background-color-rgb: 255, 255, 255;
+    --default-color: #212529;
+    --default-color-rgb: 33, 37, 41;
+    --primary-color: #e84545;
+    --primary-color-rgb: 232, 69, 69;
+    --secondary-color: #32353a;
+    --secondary-color-rgb: 50, 53, 58;
+    --contrast-color: #ffffff;
+    --contrast-color-rgb: 255, 255, 255;
+  }
+  
+  
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+  body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #9eccf4;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-primary {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+
+/* Pagina de obrigado */
+
+body{
+    height: calc( 100vh - 30px);
+    padding: 0 0 0 0;
+    background-image: linear-gradient(to bottom, rgba(17, 18, 18, 0.70), rgba(3, 3, 3, 0.70)),  url('/assets/img/fotos/Foto_2.webp');
+    background-size: cover;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+  }
+  .obrigadomessage {
+    text-align: center;
+    color: #fff;
+  }
+  .obrigadomessage h1 {
+    text-align: center;
+    color: #ff4a17;
+  }

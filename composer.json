@@ -1,0 +1,18 @@
+{
+    "name": "showart/site-showart",
+    "description": "Landing Page - Showart",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Showart\\SiteShowart\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "João Mamprin"
+        }
+    ]
+}
